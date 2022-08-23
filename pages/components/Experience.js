@@ -15,10 +15,10 @@ export const Experience = ({title}) => {
     <div className='road pb-20' id='experience'>
          <Title title={title}/>
       <h2 className='p-2 text-white text-center text-xl md:text-2xl ml-auto mr-auto max-w-2xl'>
-        Thanks to my friend N'dri for letting me work on different projects when I was just starting.
+        Thanks to my friend Ndri for letting me work on different projects when I was just starting.
         During our time together we completed many tasks, from easy to difficulty. <br/>
         I put about nine-months of time reworking the website to more modern looking website.
-        I've learned a ton of skills while I was working. These are all the project I've touched on,
+        I have learned a ton of skills while I was working. These are all the project I have touched on,
         for clients, and for business opportunities.
       </h2>
       <div className='relative w-full md:max-w-3xl mx-auto lg:px-10 lg:w-[1000px] lg:max-w-none'>

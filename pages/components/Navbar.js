@@ -26,7 +26,7 @@ useEffect(() => {
     <div className={hidden ? 'hidden' : ''}>
         <aside className="md:fixed md:right-0 md:top-96 z-50 w-32 fixed top-0" aria-label="Sidebar">
           <div className="overflow-y-auto py-4 text-white px-3  rounded bg-transparent">
-              <ul class="space-y-2">
+              <ul className="space-y-2">
                 <li className="group cursor-pointer flex items-center p-2 text-base font-normal  dark:text-white">
                     <Link onClick={() => setActiveLink('home')} to={"home"} smooth={true} duration={1000} className={`${activeLink === 'home' ? 'active' : ''}`}><div className='w-3 h-3 border-[1px] rounded-full -z-5 flex items-center pl-2'><span className="ml-3 hidden group-hover:block">Home</span></div></Link>
                 </li>

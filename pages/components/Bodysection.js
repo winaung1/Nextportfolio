@@ -24,7 +24,7 @@ export const Bodysection = () => {
                 <p><span className="text-yellow-500">Country:</span> Thailand</p>
                 <p><span className="text-yellow-500">Location:</span> SLC, UT</p>
                 <p><span className="text-yellow-500">Interesting Fact:</span> I love to play soccer during my free time, it is the only sport that get me to
-                 loose weight without thinking that I'm actually exercising. It is the best!</p>
+                 loose weight without thinking that I am actually exercising. It is the best!</p>
               </div>
               <h1 className="flex gap-x-2 text-white"> {w[1]}</h1>
               <p></p>
