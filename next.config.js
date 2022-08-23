@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // reactStrictMode: true,
-  // swcMinify: true,
-  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
+  reactStrictMode: true,
+  swcMinify: true,
+  // pageExtensions: ['pages.tsx', 'pages.ts', 'pages.jsx', 'pages.js']
 }
 
 module.exports = nextConfig
