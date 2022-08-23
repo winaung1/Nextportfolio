@@ -22,19 +22,18 @@ export const Mywork = ({title}) => {
             skills5='Django'
           />
           <MyWorkCards 
-            myText='Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lourd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;'
-            IconImage={'https://d334lak5lb2pjo.cloudfront.net/wp-content/uploads/b2b-web-design-examples-min.jpg'}
-            Title='PINAV'
-            skills1='Python'
-            skills2='Bootstrap'
+            myText='I was interested in making a better website for my Karen people that needs help with
+            technology, I went in and volunteer my time to make a more modern website. It was the second project
+            I did to pratice my skills. I was barely new at this when I did this website. But I was glad it turned out great.'
+            IconImage={'/ksn.png'}
+            Demo={'https://verdant-eclair-1ba9e1.netlify.app/index.html'}
+            Code={'https://github.com/winaung1/KSN.org'}
+            Title='KSN'
+            skills1='HTML'
+            skills2='Tailwind CSS'
             skills3='Javascript'
-            skills4='MySQL'
-            skills5='Django'
+            skills4='Vercel'
+            skills5='CSS'
           />
           <MyWorkCards 
             myText='This is the project that I was doing for fun to practice my skills when I had no real project to do.
