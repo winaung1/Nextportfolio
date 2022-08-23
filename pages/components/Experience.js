@@ -2,7 +2,6 @@ import React from 'react'
 import { ExperienceCards } from './ExperienceCards'
 import {
   BriefcaseIcon,
-  HomeIcon,
   SearchIcon,
   SupportIcon,
   BadgeCheckIcon

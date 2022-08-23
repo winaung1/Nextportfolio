@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MyWorkCards = ({myText, IconImage, IconImage2, IconImage3, Demo, Code, Title, skills1, skills2, skills3, skills4, skills5}) => {
+export const MyWorkCards = ({myText, IconImage, Demo, Code, Title, skills1, skills2, skills3, skills4, skills5}) => {
   return (
     <div className='text-white py-10 px-7'>
         <img className='pb-5 object-cover w-full border-gray-600' src={IconImage}/>
