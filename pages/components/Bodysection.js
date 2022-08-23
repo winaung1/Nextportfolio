@@ -13,7 +13,7 @@ export const Bodysection = () => {
     <div>
          <div className='body flex gap-x-3 md:gap-x-10 leading-normal p-2  h-[500px] bg-[#030f1e] rounded-bl-lg rounded-br-lg '>
             <div>
-              {numbers.map(num => <p>{num}</p>)}
+              {numbers.map(num => <p key={num.id}>{num}</p>)}
             </div>
             <div className='text-left md:text-lg'>
               <p className='text-gray-700 pb-2 md:pb-4'>/* Welcome to my portfolio website! */</p>

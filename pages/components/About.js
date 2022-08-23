@@ -5,7 +5,6 @@ export const About = ({title}) => {
   return (
     <div className=' bg-gray-800 px-5 text-lg min-h-screen text-gray-300 pb-10' id='about'>
       <Title title={title}/>
-      {/* {content} */}
       <div className='lg:flex items-center lg:w-[990px] lg:mx-auto lg:my-40'>
 
           <p className='pb-5 leading-normal md:px-5 md:text-2xl max-w-4xl ml-auto mr-auto lg:w-[800px]'>
