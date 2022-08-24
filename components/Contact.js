@@ -8,7 +8,7 @@ export const Contact = ({title}) => {
       <form name="contact" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
        <input type="hidden" name="form-name" value="contact"/>
 
-       <div class="grid gap-6 mb-6 md:grid-cols-2">
+       <div className="grid gap-6 mb-6 md:grid-cols-2">
             <div className='relative'>
               <input name='first_name' type="text" id="first_name" className="block bg-transparent rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-sm border-0 border-b-[3px] appearance-none dark:focus:border-[#009897] focus:outline-none focus:ring-0 focus:border-[#009897] peer" placeholder=" " />
               <label htmlFor="first_name" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">First Name</label>
