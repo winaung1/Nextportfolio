@@ -55,7 +55,7 @@ export const Mywork = ({title}) => {
             and looked for ways to improve my skills.'
             IconImage={'/firstPortfolio.png'}
             Demo={'http://winaung.com/'}
-            Code={'https://github.com/winaung1/Hulu-2'}
+            Code={'https://github.com/winaung1/winportfolio'}
             Title='Portfolio Website'
             skills1='HTML'
             skills2='Tailwind'
