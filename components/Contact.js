@@ -17,12 +17,12 @@ export const Contact = ({title}) => {
               <label htmlFor="last_name" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">Last Name</label>
             </div>
             <div className='relative'>
-              <input name='phone' type="text" id="phone" className="block bg-transparent rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-sm border-0 border-b-[3px] appearance-none dark:focus:border-[#009897] focus:outline-none focus:ring-0 focus:border-[#009897] peer" placeholder=" " />
-              <label htmlFor="phone" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">Phone Number</label>
-            </div>
-            <div className='relative'>
               <input name='email'  type="email" id="email" className="block bg-transparent rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-sm border-0 border-b-[3px] appearance-none dark:focus:[#009897] focus:outline-none focus:ring-0 focus:border-[#009897] peer" placeholder=" " />
               <label htmlFor="email" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">Email Address</label>
+            </div>
+            <div className='relative'>
+              <input name='message' type="text" id="phone" className="block bg-transparent rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-sm border-0 border-b-[3px] appearance-none dark:focus:border-[#009897] focus:outline-none focus:ring-0 focus:border-[#009897] peer" placeholder=" " />
+              <label htmlFor="message" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">Subject</label>
             </div>
             
           
