@@ -3,12 +3,12 @@ import React from 'react'
 export const MyWorkCards = ({myText, IconImage, Demo, Code, Title, skills1, skills2, skills3, skills4, skills5}) => {
   return (
     <div className='text-white py-10 px-7'>
-        <img className='pb-5 object-cover w-full border-gray-600' src={IconImage}/>
+        <img className='pb-5 rounded-lg object-cover w-full border-gray-600' src={IconImage}/>
         <div className='flex justify-between my-4 items-center'>
-          <h1 className='font-bold text-3xl'>{Title}</h1>
-          <div className='space-x-2'>
-            <button className='border-2 border-[#009897] text-[#009897] p-2 px-4 hover:bg-[#009897] hover:text-white'><a href={Demo} target='_blank' rel='noreferrer' className='flex relative'>DEMO</a></button>
-            <button className='border-2 border-[#009897] text-[#009897] p-2 px-4 hover:bg-[#009897]  hover:text-white'><a href={Code} target='_blank' rel='noreferrer' className='flex relative'>CODE</a></button>
+          <h1 className='font-bold text-2xl md:text-3xl'>{Title}</h1>
+          <div className='space-x-2 flex ml-2'>
+            <button className='rounded-md border-2 border-[#009897] text-[#009897] p-2 md:px-4 hover:bg-[#009897] hover:text-white'><a href={Demo} target='_blank' rel='noreferrer' className='flex relative'>DEMO</a></button>
+            <button className='rounded-md border-2 border-[#009897] text-[#009897] p-2 md:px-4 hover:bg-[#009897]  hover:text-white'><a href={Code} target='_blank' rel='noreferrer' className='flex relative'>CODE</a></button>
           </div>
         </div>
         <p className='text-gray-300'>{myText}</p>
