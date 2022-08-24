@@ -5,7 +5,8 @@ export const Contact = ({title}) => {
   return (
     <div className='home min-h-screen pt-10 p-5' id='contact'>
        <Title title={title}/>
-      <form action='POST' data-netlify="true" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl'>
+      <form name='contact' action='POST' data-netlify="true" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl'>
+          <input type='hidden' name='form-name' value='contact'/>
           <div className="grid gap-6 mb-6 md:grid-cols-2">
             <div className='relative'>
               <input name='first_name'  type="text" id="first_name" className="block bg-transparent rounded-t-lg px-2.5 pb-1.5 pt-4 w-full text-sm border-0 border-b-[3px] appearance-none dark:focus:border-[#009897] focus:outline-none focus:ring-0 focus:border-[#009897] peer" placeholder=" " />
