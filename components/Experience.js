@@ -34,30 +34,31 @@ export const Experience = ({title}) => {
         </li>
         <li>
           <ExperienceCards 
-            title='PINAV' 
-            info='Start-Up' 
-            description='Working as a co-worker in this project leading the frontend of the website'
-            dates='2021 - PRESENT'
+            title='KSN' 
+            info='Vlunteer' 
+            description='I volunteer for Karen Society of Nebraska because they are looking to update
+            their website to modern style'
+            dates='2021 - 2021'
             Icon={BriefcaseIcon}
             Icon2={BadgeCheckIcon}
           />
         </li>
         <li>
           <ExperienceCards 
-            title='KSN' 
-            info='Volunteer'
-            description='Working as a co-worker in this project leading the frontend of the website'
-            dates='2021 - PRESENT'
+            title='Hulu 2.0' 
+            info='Side Project'
+            description='Simply made this website to pratice fetching api from a movie database.'
+            dates='2021 - 2021'
             Icon={SupportIcon}
             Icon2={BadgeCheckIcon}
           />
         </li>
         <li>
           <ExperienceCards 
-            title='Facebook' 
-            info='Volunteer'
-            description='Working as a co-worker in this project leading the frontend of the website'
-            dates='2021 - PRESENT'
+            title='First Portfolio Website' 
+            info='Portfolio'
+            description='I worked on this porfolio website when I was first started web development'
+            dates='2021 - 2022'
             Icon={SearchIcon}
             Icon2={BadgeCheckIcon}
           />

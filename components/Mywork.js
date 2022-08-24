@@ -32,7 +32,7 @@ export const Mywork = ({title}) => {
             skills1='HTML'
             skills2='Tailwind CSS'
             skills3='Javascript'
-            skills4='Vercel'
+            skills4='Netlify'
             skills5='CSS'
           />
           <MyWorkCards 
@@ -50,19 +50,18 @@ export const Mywork = ({title}) => {
             skills5='Express'
           />
           <MyWorkCards 
-            myText='Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lourd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;'
-            IconImage={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYH04E7PVSRHV7-A6Drl7SwGrTTxrJ8dmBbg&usqp=CAU'}
-            Title='Instagram'
-            skills1='React'
+            myText='This was my first ever portfolio that went live. I had fun learning
+            my first Html and Css. Because I had so much fun I continued building different projects,
+            and looked for ways to improve my skills.'
+            IconImage={'/firstPortfolio.png'}
+            Demo={'http://winaung.com/'}
+            Code={'https://github.com/winaung1/Hulu-2'}
+            Title='Portfolio Website'
+            skills1='HTML'
             skills2='Tailwind'
             skills3='Javascript'
-            skills4='Firebase'
-            skills5='Express'
+            skills4='Netlify'
+            skills5='CSS'
           />
         </div>
  
