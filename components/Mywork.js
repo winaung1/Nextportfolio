@@ -11,7 +11,8 @@ export const Mywork = ({title}) => {
           <MyWorkCards 
             myText='This is the longest project that my friend and I have done. It tooks us almost a year to make the project finished.
             This is the first project that I touched on since I started coding for the first month. I have learned alot and keep on doing the project eventhough it was hard.
-            But here is our finished product'
+            But here is our finished product. Our initial thought was to be designed for mobile version only.
+            We are transitioning to React native in the near future.'
             IconImage={'/icurus.png'}
             Tag={'https://www.google.com'}
             Title='Icurus Restuarent'
