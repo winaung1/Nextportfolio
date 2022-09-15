@@ -14,7 +14,7 @@ export const Mywork = ({title}) => {
             But here is our finished product. Our initial thought was to be designed for mobile version only.
             We are transitioning to React native in the near future. Also create an account to access to the full experience.'
             IconImage={'/icurus.png'}
-            Tag={'https://www.google.com'}
+            Tag={'https://icarusrestaurant.herokuapp.com/homepage/?session=test&table=13'}
             Title='Icurus Restuarent'
             skills1='Python'
             skills2='Tailwind'
