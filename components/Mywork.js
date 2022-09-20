@@ -16,7 +16,7 @@ export const Mywork = ({title}) => {
             IconImage={'/icurus.png'}
             Demo={'https://icarusrestaurant.herokuapp.com/homepage/?session=test&table=13'}
             Title='Icurus Restuarent'
-            skills1='ဘၣ်ဃးဒီးကဝီၤအံၤ'
+            skills1='Python'
             skills2='Tailwind'
             skills3='Javascript'
             skills4='MySQL'
