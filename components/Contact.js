@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Title } from './Title';
 export const Contact = ({title}) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+      
+      // setHandleSumbit(true)
+      emailjs.sendForm('service_b1flkte', 'template_8bn17ud', form.current, 'ZxuKELkVUqLJ1X_yP')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    }
 
   return (
     <div className='home min-h-screen pt-10 p-5' id='contact'>
       <Title title={title}/>
-      <form name="contact" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
+      <form ref={form} onSubmit={sendEmail} name="contact" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
        <input type="hidden" name="form-name" value="contact"/>
 
        <div className="grid gap-6 mb-6 md:grid-cols-2">
