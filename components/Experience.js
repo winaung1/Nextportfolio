@@ -66,9 +66,10 @@ export const Experience = ({title}) => {
         <li>
           <div className='relative'>
             <ExperienceCards 
-            title='Instagram' 
+            title='KBCUSA' 
             info='Volunteer'
-            description='Working as a co-worker in this project leading the frontend of the website'
+            description='I volunteer to do their website because no one else know what to do with it,
+            i broght the website to life and also made huge commitment to make sure every works.'
             dates='2021 - PRESENT'
             Icon={SearchIcon}
             Icon2={BadgeCheckIcon}

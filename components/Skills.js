@@ -9,6 +9,8 @@ import {
  PaperAirplaneIcon
 } from '@heroicons/react/outline';
 import { Tools } from './Tools';
+import { FaReact, FaHtml5, FaCss3} from 'react-icons/fa';
+import Image from 'next/image';
 
 
 export const Skills = ({title}) => {
@@ -19,22 +21,22 @@ export const Skills = ({title}) => {
         <Title title={title}/>
           <p className='pt-10 w-80 mx-auto flex items-center space-x-2 text-white'><CogIcon className='h-7'/><span className='text-2xl font-bold'>DEVELOPMENT</span></p>
           <div className='mx-auto gap-x-5 w-72 h-72 grid grid-cols-3 md:max-w-sm items-center justify-center mt-2'>
-            <SkillsCard skillsTitle='React'/>
-            <SkillsCard skillsTitle='Axios'/>
-            <SkillsCard skillsTitle='Express'/>
-            <SkillsCard skillsTitle='NEXT.Js'/>
-            <SkillsCard skillsTitle='Node.Js'/>
-            <SkillsCard skillsTitle='HTML5'/>
-            <SkillsCard skillsTitle='Tailwind'/>
-            <SkillsCard skillsTitle='CSS3'/>
-            <SkillsCard skillsTitle='JavaScript'/>
+            <SkillsCard skillsTitle={<FaReact/>} animation="animate-spin" background="text-[#61DBFB]"/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/axios-removebg-preview (1).png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/express-js-tutorial-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/download-removebg-preview (1).png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/node-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<FaHtml5 className='text-[#f06529]'/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/download__1_-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<FaCss3 className='text-[#2965f1]'/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/images-removebg-preview.png" width={120} height={70} objectFit="contain"/>}/>
           </div>
         </div>
       <div className='flex justify-center space-x-10 pb-20'>
         <div>
           <p className='pt-10 flex items-center space-x-2 text-white'><PaperAirplaneIcon className='h-7'/><span className='text-2xl font-bold'>DESIGN</span></p>
           <div className='pt-2 space-y-5 mt-4 text-white'>
-            <p className='border-4 flex items-center justify-center text-bold text-4xl h-14 w-14'>Ps</p>
+            <Image src="/SkillsImagesLogo/2101px-Adobe_Photoshop_Express_logo.svg-removebg-preview.png" width={80} height={80}/>
           </div>
         </div>
         <div>

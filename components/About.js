@@ -1,6 +1,8 @@
 import React from 'react'
 import { Title } from './Title';
 import { MyImage } from './MyImage';
+import Link from 'next/link'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export const About = ({title}) => {
   return (
     <div className=' bg-gray-800 px-5 text-lg min-h-screen text-gray-300 pb-10' id='about'>
@@ -17,6 +19,19 @@ export const About = ({title}) => {
             this is the only field that I can play and expand my skills.
           </p>
             <MyImage Image={'/my.jpg'} />
+      </div>
+      <div className='fixed bottom-10 left-2 opacity-20 hover:opacity-100 hover:left-2 flex flex-col space-y-2 z-50'>
+        <Link href="https://github.com/winaung1" className='bg-white'>
+          <a target="_blank">
+            <FaGithub className='w-8 h-8 text-white'/>
+          </a>
+        </Link>
+        <Link href="https://www.linkedin.com/in/win-aung-815945193/" className='bg-white'>
+          <a target="_blank">
+            <FaLinkedin className='w-8 h-8 text-blue-300'/>
+          </a>
+        </Link>
+       
       </div>
     </div>
   )

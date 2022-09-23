@@ -51,18 +51,18 @@ export const Mywork = ({title}) => {
             skills5='Express'
           />
           <MyWorkCards 
-            myText='This was my first ever portfolio that went live. I had fun learning
-            my first Html and Css. Because I had so much fun I continued building different projects,
-            and looked for ways to improve my skills.'
-            IconImage={'/firstPortfolio.png'}
-            Demo={'http://winaung.com/'}
-            Code={'https://github.com/winaung1/winportfolio'}
-            Title='Portfolio Website'
-            skills1='HTML'
+            myText='I volunteering to this website because it was almost not used since it was hard to maintain and know one knows how to work around a code that is so old.
+            So I use React because it is fun. Due to their reuse components through props. I managed to build the website fairly quickly.
+            I kept all the old layout as they wanted.'
+            IconImage={'/kbcusa.png'}
+            Demo={'https://kbcusa.netlify.app'}
+            Code={'https://github.com/winaung1/kbcusa'}
+            Title='KBCUSA'
+            skills1='NextJs'
             skills2='Tailwind'
             skills3='Javascript'
             skills4='Netlify'
-            skills5='CSS'
+            skills5='Stripe'
           />
         </div>
  
