@@ -2,6 +2,7 @@ import React from 'react'
 import { Title } from './Title';
 import { MyImage } from './MyImage';
 import Link from 'next/link'
+import { checkout } from '../checkout';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export const About = ({title}) => {
   return (
@@ -31,7 +32,16 @@ export const About = ({title}) => {
             <FaLinkedin className='w-8 h-8 text-blue-300'/>
           </a>
         </Link>
-       
+       <button onClick={(() => {
+            checkout({
+              lineItems: [
+                {
+                  price: "price_1LlIm8EtRFSkR2CjnWO6RTYp",
+                  quantity: 1,
+                }
+              ]
+            })
+          })}>Donate</button>
       </div>
     </div>
   )
