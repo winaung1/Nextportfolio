@@ -17,7 +17,7 @@ function Container() {
     const [handleSubmit,setHandleSumbit] = useState(false);
   return (
     <div>
-      {HandleSubmit ? <EmailSuccess setHandleSubmit={setHandleSumbit}/>: 
+      {handleSubmit ? <EmailSuccess setHandleSubmit={setHandleSumbit}/>: 
       <div className="min-w-[360px]">
         <Navbar/>
         <Home/>
