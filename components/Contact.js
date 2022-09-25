@@ -1,8 +1,8 @@
-import React, { useRef, useState} from 'react';
+import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { Title } from './Title';
-import EmailSuccess from './emailsucess/EmailSuccess';
-export const Contact = ({title, handleSubmit, setHandleSumbit}) => {
+
+export const Contact = ({title,setHandleSumbit}) => {
   const form = useRef();
 
   const sendEmail = (e) => {

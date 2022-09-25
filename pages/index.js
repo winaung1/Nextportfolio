@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import Head from 'next/head'
 import { About } from "../components/About";
 import { Contact } from "../components/Contact";
