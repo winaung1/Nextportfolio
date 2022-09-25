@@ -22,9 +22,9 @@ export const Skills = ({title}) => {
           <p className='pt-10 w-80 mx-auto flex items-center space-x-2 text-white'><CogIcon className='h-7'/><span className='text-2xl font-bold'>DEVELOPMENT</span></p>
           <div className='mx-auto gap-x-5 w-72 h-72 grid grid-cols-3 md:max-w-sm items-center justify-center mt-2'>
             <SkillsCard skillsTitle={<FaReact/>} animation="animate-spin" background="text-[#61DBFB]"/>
-            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/axios-removebg-preview (1).png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/axios-removebg-preview(1).png" width={180} height={140} objectFit="cover"/>}/>
             <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/express-js-tutorial-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
-            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/download-removebg-preview (1).png" width={180} height={140} objectFit="cover"/>}/>
+            <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/download-removebg-preview(1).png" width={180} height={140} objectFit="cover"/>}/>
             <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/node-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
             <SkillsCard skillsTitle={<FaHtml5 className='text-[#f06529]'/>}/>
             <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/download__1_-removebg-preview.png" width={180} height={140} objectFit="cover"/>}/>
