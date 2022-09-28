@@ -23,7 +23,7 @@ const scrolled = () => {
 
 var isScrolling;
 
-window.addEventListener('scroll', function ( event ) {
+window.addEventListener('scroll', function () {
 
 	window.clearTimeout( isScrolling );
 
