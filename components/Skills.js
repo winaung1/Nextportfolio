@@ -48,14 +48,16 @@ export const Skills = ({title, skillsRef}) => {
           </div>
         </div>
       </div>
-      <div className='w-[500px] absolute top-[20%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
-      <div className='w-[400px] absolute top-[30%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
-      <div className='w-[300px] absolute top-[40%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
-      <div className='w-[200px] absolute top-[50%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
-      <div className='w-[500px] absolute top-[20%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
-      <div className='w-[400px] absolute top-[30%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
-      <div className='w-[300px] absolute top-[40%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
-      <div className='w-[200px] absolute top-[50%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
+      <div className='hidden md:block overflow-x-hidden'>
+        <div className='w-[500px] absolute top-[20%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
+        <div className='w-[400px] absolute top-[30%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
+        <div className='w-[300px] absolute top-[40%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
+        <div className='w-[200px] absolute top-[50%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
+        <div className='w-[500px] absolute top-[20%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
+        <div className='w-[400px] absolute top-[30%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
+        <div className='w-[300px] absolute top-[40%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
+        <div className='w-[200px] absolute top-[50%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
+      </div>
     </div>
   )
 }
