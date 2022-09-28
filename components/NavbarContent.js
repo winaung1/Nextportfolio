@@ -2,9 +2,7 @@
 import { Link } from 'react-scroll'
 
 function NavbarContent({
-      setActiveLink, 
-      activeLink, 
-      setHidden, 
+      setActiveLink,  
       myAboutIsVisible, 
       myHomeIsVisible, 
       myExperienceIsVisible, 

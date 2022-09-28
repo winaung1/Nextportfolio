@@ -1,5 +1,5 @@
 
-import {React, useState, useEffect} from 'react'
+import {React, useEffect} from 'react'
 import NavbarContent from './NavbarContent';
 export const Navbar = ({hidden, 
   setHidden, activeLink, setActiveLink, 
@@ -12,7 +12,7 @@ export const Navbar = ({hidden,
   mySkillsIsVisible
 }) => {
 
-const scrolled = (e) => {
+const scrolled = () => {
   
     if(window.scrollY > 500){
       setHidden(false)

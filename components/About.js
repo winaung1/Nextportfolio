@@ -1,9 +1,9 @@
-import {useState, useEffect, useRef} from 'react'
+import { useRef } from 'react'
 import { Title } from './Title';
 import { MyImage } from './MyImage';
 import { useInView } from "framer-motion";
 import Link from 'next/link'
-import { checkout } from '../checkout';
+// import { checkout } from '../checkout';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
