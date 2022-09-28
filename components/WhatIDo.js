@@ -1,4 +1,4 @@
-import React from 'react'
+import {useRef} from 'react'
 import { Title } from './Title'
 import { WhatIDoCards } from './WhatIDoCards'
 import {
@@ -10,9 +10,9 @@ import {
 } from '@heroicons/react/outline';
 import { Lines } from './Lines';
 
-export const WhatIDo = ({title}) => {
+export const WhatIDo = ({title, whatidoRef}) => {
   return (
-    <div className='min-h-screen office py-10' id='whatido'>
+    <div ref={whatidoRef} className='min-h-screen office py-10' id='whatido'>
         <Title title={title}/>
         <div className='relative md:flex md:flex-wrap mx-auto py-10 my-auto max-w-6xl md:px-[83px]'>
           <WhatIDoCards

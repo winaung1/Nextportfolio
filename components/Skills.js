@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect} from 'react'
 import { SkillsCard } from './SkillsCard'
 import { Title } from './Title'
 
@@ -13,13 +13,13 @@ import { FaReact, FaHtml5, FaCss3} from 'react-icons/fa';
 import Image from 'next/image';
 
 
-export const Skills = ({title}) => {
+export const Skills = ({title, skillsRef}) => {
 
   return (
-    <div className='min-h-screen bg-gray-800 lg:flex items-center justify-center gap-x-10' id='skills'>
-        <div className='py-10'>
+    <div className='h-[900px] bg-gray-800 items-center justify-center gap-x-10 relative' id='skills'>
+        <div ref={skillsRef} className=''>
         <Title title={title}/>
-          <p className='pt-10 w-80 mx-auto flex items-center space-x-2 text-white'><CogIcon className='h-7'/><span className='text-2xl font-bold'>DEVELOPMENT</span></p>
+          <p className=' w-80 mx-auto flex items-center space-x-2 text-white'><CogIcon className='h-7'/><span className='text-2xl font-bold'>DEVELOPMENT</span></p>
           <div className='mx-auto gap-x-5 w-72 h-72 grid grid-cols-3 md:max-w-sm items-center justify-center mt-2'>
             <SkillsCard skillsTitle={<FaReact/>} animation="animate-spin" background="text-[#61DBFB]"/>
             <SkillsCard skillsTitle={<Image src="/SkillsImagesLogo/axios-removebg-preview(1).png" width={180} height={140} objectFit="cover"/>}/>
@@ -48,6 +48,14 @@ export const Skills = ({title}) => {
           </div>
         </div>
       </div>
+      <div className='w-[500px] absolute top-[20%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
+      <div className='w-[400px] absolute top-[30%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
+      <div className='w-[300px] absolute top-[40%] left-0 h-[50px] bg-[#009897]/10 -skew-y-12 overflow-hidden'></div>
+      <div className='w-[200px] absolute top-[50%] left-0 h-[50px] bg-[#F7AB0A]/10 -skew-y-12 overflow-hidden'></div>
+      <div className='w-[500px] absolute top-[20%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
+      <div className='w-[400px] absolute top-[30%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
+      <div className='w-[300px] absolute top-[40%] right-0 h-[50px] bg-[#009897]/10 skew-y-12 overflow-hidden'></div>
+      <div className='w-[200px] absolute top-[50%] right-0 h-[50px] bg-[#F7AB0A]/10 skew-y-12 overflow-hidden'></div>
     </div>
   )
 }

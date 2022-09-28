@@ -3,9 +3,9 @@ import { MyWorkCards } from './MyWorkCards'
 import { Title } from './Title'
 
 
-export const Mywork = ({title}) => {
+export const Mywork = ({title, myworkRef}) => {
   return (
-    <div className='bg-gray-800 min-h-screen' id='mywork'>
+    <div  ref={myworkRef} className='bg-gray-800 min-h-screen' id='mywork'>
         <Title title={title}/>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <MyWorkCards 
@@ -37,6 +37,20 @@ export const Mywork = ({title}) => {
             skills5='CSS'
           />
           <MyWorkCards 
+            myText='I volunteering to this website because it was almost not used since it was hard to maintain and know one knows how to work around a code that is so old.
+            So I use React because it is fun. Due to their reuse components through props. I managed to build the website fairly quickly.
+            I kept all the old layout as they wanted.'
+            IconImage={'/kbcusa1.png'}
+            Demo={'https://kbcusa.netlify.app'}
+            Code={'/'}
+            Title='KBCUSA'
+            skills1='NextJs'
+            skills2='Tailwind'
+            skills3='Javascript'
+            skills4='Netlify'
+            skills5='Stripe'
+          />
+          <MyWorkCards 
             myText='This is the project that I was doing for fun to practice my skills when I had no real project to do.
             I was fetching the data from the movie database and display it on the screen. I was learning a ton of skills such as the css framework Tailwind
             and fetching data from API.'
@@ -49,20 +63,6 @@ export const Mywork = ({title}) => {
             skills3='Javascript'
             skills4='Vercel'
             skills5='Express'
-          />
-          <MyWorkCards 
-            myText='I volunteering to this website because it was almost not used since it was hard to maintain and know one knows how to work around a code that is so old.
-            So I use React because it is fun. Due to their reuse components through props. I managed to build the website fairly quickly.
-            I kept all the old layout as they wanted.'
-            IconImage={'/kbcusa.png'}
-            Demo={'https://kbcusa.netlify.app'}
-            Code={'https://github.com/winaung1/kbcusa'}
-            Title='KBCUSA'
-            skills1='NextJs'
-            skills2='Tailwind'
-            skills3='Javascript'
-            skills4='Netlify'
-            skills5='Stripe'
           />
         </div>
  

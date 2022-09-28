@@ -2,7 +2,7 @@ import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { Title } from './Title';
 
-export const Contact = ({title,setHandleSumbit}) => {
+export const Contact = ({title,setHandleSumbit, contactRef}) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,7 +21,7 @@ export const Contact = ({title,setHandleSumbit}) => {
   return (
     <div className='home min-h-screen pt-10 p-5' id='contact'>
       <Title title={title}/>
-      <form ref={form} onSubmit={sendEmail} name="contact" className='flex flex-col item-center min-h-screen justify-center ml-auto mr-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
+      <form ref={form} onSubmit={sendEmail} name="contact" className='flex flex-col item-center w-80 md:w-[550px] min-h-screen justify-center mx-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
        <input type="hidden" name="form-name" value="contact"/>
 
        <div className="grid gap-6 mb-6 md:grid-cols-2">
@@ -42,7 +42,7 @@ export const Contact = ({title,setHandleSumbit}) => {
               <label htmlFor="email" className="absolute text-xl duration-300 transform -translate-y-3 scale-75 top-3 z-10 origin-[0] left-2.5 peer-focus:text-[#009897] peer-focus:dark:text-[#009897] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3">Email Address</label>
             </div>
           </div>
-          <button type="submit" className="text-[#009897] text-2xl bg-transparent border-[3px] border-[#009897] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-full sm:w-auto px-5 py-2.5 text-center">Send</button>
+          <button ref={contactRef} type="submit" className="text-[#009897] text-2xl bg-transparent border-[3px] border-[#009897] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-full sm:w-auto px-5 py-2.5 text-center">Send</button>
       </form>
       </div>
   )
