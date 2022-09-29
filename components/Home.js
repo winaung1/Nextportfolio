@@ -30,9 +30,7 @@ export const Home = ({homeRef}) => {
     <div ref={homeRef} id='home'>
         <div className='text-gray-500'>
          <div  ref={ref} className='background-gradient overflow-hidden'>
-            {/* <Topsection/>
-            <Bodysection /> */}
-            <p ref={paraRef}           
+            <p ref={paraRef}       
             style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,

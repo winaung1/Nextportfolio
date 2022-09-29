@@ -40,8 +40,8 @@
     position: relative;
     color: rgb(213, 105, 105);
     text-align: center;
-    font-size: 3rem;
-    padding-top: 205px;
+    font-size: 2rem;
+    padding-top: 170px;
     letter-spacing: 15px;
     z-index: 2;
     font-family: 'Caveat Brush', cursive;
@@ -120,6 +120,16 @@
   @media screen and (min-width:768px) {
       .top, .body{
           width: 600px;
+      }
+      .background-gradient p{
+        position: relative;
+        color: rgb(213, 105, 105);
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 205px;
+        letter-spacing: 15px;
+        z-index: 2;
+        font-family: 'Caveat Brush', cursive;
       }
   }
   @media screen and (min-width:1000px) {
