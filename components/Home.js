@@ -1,9 +1,9 @@
 import {useRef, useEffect} from 'react'
 // import './Home.css'
-import { Topsection } from './Topsection';
-import { Bodysection } from './Bodysection';
+// import { Topsection } from './Topsection';
+// import { Bodysection } from './Bodysection';
 import { useInView } from "framer-motion";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export const Home = ({homeRef}) => {
   const ref = useRef(null);
