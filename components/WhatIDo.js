@@ -62,7 +62,7 @@ export const WhatIDo = ({title, whatidoRef}) => {
           "
         />
 
-        
+      
         </div>
     </div>
   )
