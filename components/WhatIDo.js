@@ -1,4 +1,4 @@
-
+import {useRef} from 'react'
 import { Title } from './Title'
 import { WhatIDoCards } from './WhatIDoCards'
 import {
@@ -9,18 +9,28 @@ import {
 
 } from '@heroicons/react/outline';
 import { Lines } from './Lines';
+import { useInView } from "framer-motion";
 
 export const WhatIDo = ({title, whatidoRef}) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
   return (
     <div ref={whatidoRef} className='min-h-screen office py-10' id='whatido'>
         <Title title={title}/>
         <div className='relative md:flex md:flex-wrap mx-auto py-10 my-auto max-w-6xl md:px-[83px]'>
           <WhatIDoCards
+            ref={ref}
             WhatIDoTitle='WEB DEVELOPMENT' 
             IconWhatIDo={CodeIcon}
             text="I use HTML with Tailwind css, because it is easier to style
             things without leaving the html tag. I like to make my life easier when I can.
             I do alot of project work with Tailwind css."
+            stylea={{
+              
+              transform: isInView ? "none" : "translateY(-200px)",
+              opacity: isInView ? 1 : 0,
+              transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+            }}
           />
           <WhatIDoCards 
             WhatIDoTitle='RESPONSIVE DESIGN' 
