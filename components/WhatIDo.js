@@ -37,10 +37,9 @@ export const WhatIDo = ({title, whatidoRef}) => {
             WhatIDoTitle='RESPONSIVE DESIGN' 
             IconWhatIDo={PencilIcon}
             text="
-            Modern day website is not like the decades ago. Things changed. More and more people starting using mobile phone
-            almost everyday, better yet 15-20 hours a day. I do everything on my phone, such as texting friends, browersing the internet.
-            If a website is not welcoming I do think I'd stay long. Most people go to the internet to get something they want.
-            Like I said, if a website is not built responsively, you'd loose a potential client/customer.
+            Modern day website is not like the decades ago. 
+            Things changed. More and more people starting using mobile phone
+            almost everyday, better yet 15-20 hours a day. 
             "
           />
           <Lines/>

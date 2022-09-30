@@ -9,10 +9,9 @@ export const Mywork = ({title, myworkRef}) => {
         <Title title={title}/>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <MyWorkCards 
-            myText='This is the longest project that my friend and I have done. It tooks us almost a year to make the project finished.
-            This is the first project that I touched on since I started coding for the first month. I have learned alot and keep on doing the project eventhough it was hard.
-            But here is our finished product. Our initial thought was to be designed for mobile version only.
-            We are transitioning to React native in the near future. Also create an account to access to the full experience.'
+            myText='This is the project that led me to stay during tough times. I have managed to build the website from scratch,
+            using documentions, examples and tutorails. I handle all the frontend functionalities. I kept on pushing when it is hard.
+            I am very happy that I have gotten a working website that will be used by clients.'
             IconImage={'/icurus.png'}
             Demo={'https://icarusrestaurant.herokuapp.com/homepage/?session=test&table=13'}
             Title='Icurus Restuarent'
@@ -24,8 +23,8 @@ export const Mywork = ({title, myworkRef}) => {
           />
           <MyWorkCards 
             myText='I was interested in making a better website for my Karen people that needs help with
-            technology, I went in and volunteer my time to make a more modern website. It was the second project
-            I did to pratice my skills. I was barely new at this when I did this website. But I was glad it turned out great.'
+            technology. Although I was new doing this project. I am able to bring out the results that the customer wanted.
+            I have learned how to manage my time, how to implements different functionalities using javascript for the slider.'
             IconImage={'/ksn.png'}
             Demo={'https://verdant-eclair-1ba9e1.netlify.app/index.html'}
             Code={'https://github.com/winaung1/KSN.org'}
@@ -52,8 +51,8 @@ export const Mywork = ({title, myworkRef}) => {
           />
           <MyWorkCards 
             myText='This is the project that I was doing for fun to practice my skills when I had no real project to do.
-            I was fetching the data from the movie database and display it on the screen. I was learning a ton of skills such as the css framework Tailwind
-            and fetching data from API.'
+             I was learning how to manipulate the dom and fetching api. But I followed youtube tutorial for this one. Before I followed it,
+             I challenged myself by building it on my own. Unfortunely because I have never fetch api with Next js before. I had to watch some part of the video.'
             IconImage={'/desktop.png'}
             Demo={'https://hulu-2-snowy.vercel.app/'}
             Code={'https://github.com/winaung1/Hulu-2'}
