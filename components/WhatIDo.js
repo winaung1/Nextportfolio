@@ -22,9 +22,10 @@ export const WhatIDo = ({title, whatidoRef}) => {
             ref={ref}
             WhatIDoTitle='WEB DEVELOPMENT' 
             IconWhatIDo={CodeIcon}
-            text="I use HTML with Tailwind css, because it is easier to style
-            things without leaving the html tag. I like to make my life easier when I can.
-            I do alot of project work with Tailwind css."
+            text="
+            I use VS code, Tailwind css, Next js, and third party api/packages almost everyday when I'm developing a site or a software.
+            I rely heavily on time and accuracy by using something people had already done and tested it through many trails and errors.
+            "
             stylea={{
               
               transform: isInView ? "none" : "translateY(-200px)",
@@ -35,24 +36,29 @@ export const WhatIDo = ({title, whatidoRef}) => {
           <WhatIDoCards 
             WhatIDoTitle='RESPONSIVE DESIGN' 
             IconWhatIDo={PencilIcon}
-            text="Using a website that is not responsive is frustrating for users
-            I had the opportunity to use a website that I really want to get informations off of,
-            but reading the website is hard, I ended up leaving the site because I would have to zoom in and out."
+            text="
+            Modern day website is not like the decades ago. Things changed. More and more people starting using mobile phone
+            almost everyday, better yet 15-20 hours a day. I do everything on my phone, such as texting friends, browersing the internet.
+            If a website is not welcoming I do think I'd stay long. Most people go to the internet to get something they want.
+            Like I said, if a website is not built responsively, you'd loose a potential client/customer.
+            "
           />
           <Lines/>
           <WhatIDoCards 
           WhatIDoTitle='ENTREPRENUER' 
           IconWhatIDo={BriefcaseIcon}
-          text="Many of the projects I do, I'm working on to work for myself in the comfort of my own house.
-          I'm passinoate and woke up everyday to do what needs to be done.
-          Coming up with ideas is hard but I'm not afraid to try different things.
+          text="
+          I have the entreprenuerial mindset. I'm also open to new ideas.
+          Things always changes in the entrepreneurial world. I've learned to let go and not get attached to a fail idea.
+          I took that failure as a next step to improve it.
           "
           />
           <WhatIDoCards 
-          WhatIDoTitle='EXPERIMENTAL DESIGN'  
+          WhatIDoTitle='EXPERIMENTAL'  
           IconWhatIDo={TerminalIcon}
-          text="Alot of what I do is making different projects and keep on learning to improve my skills.
-          So I test out different design and skills set to see what speed and accuracy of the results.
+          text="
+            I'm always learning on how to do things better than the last time. I have the confidence that I can do any tasks
+            because I do have the experience by repeatedly trying the same thing over and over again.
           "
         />
 

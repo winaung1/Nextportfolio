@@ -1,9 +1,5 @@
 import {useRef, useEffect} from 'react'
-// import './Home.css'
-// import { Topsection } from './Topsection';
-// import { Bodysection } from './Bodysection';
 import { useInView } from "framer-motion";
-// import Image from 'next/image';
 
 export const Home = ({homeRef}) => {
   const ref = useRef(null);
@@ -14,12 +10,9 @@ export const Home = ({homeRef}) => {
 
   const scrolled = () => {
     let value = window.scrollY;
-    // firstImgRef.style.top = value * 0.7 + 'px';
     firstImgRef.current.style.top = value * 0.7 + 'px';
     secondImgRef.current.style.bottom = value * 0.5 + 'px';
     paraRef.current.style.top = value * 1.5 + 'px';
-    // secondImgRef.style.top = value * 0.7 + 'px';
-    // paraRef.style.top = value * 0.7 + 'px';
   }
 
   useEffect(() => {

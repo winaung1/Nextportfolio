@@ -21,13 +21,10 @@ export const About = ({title, aboutRef}) => {
           opacity: isInView ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
         }} className='pb-5 leading-normal md:px-5 md:text-2xl max-w-4xl ml-auto mr-auto lg:w-[800px]'>
-            My name is Win Aung. I am from Thailand refugee camp. 
-            I am a self-taught developer. 
-            I have worked on many projects to expand my skills as a front-end developer. 
-            I work hard everyday regardless, I used to like going out and stuff,
-            now I have been obsessed with making websites because I see many opportunities. 
-            I work hard because I know I can do great things one day. I can be creative,
-            this is the only field that I can play and expand my skills.
+            My name is Win Aung. I'm a self-taught frontend developer. I'm using Next Js along side Tailwind css almost every project I build.
+            I've developed the necessary skills as a web developer to accomplish any tasks by reading documentations and tutorials.
+            I use third party packages from all over the internet if necessary to speed up the process of the work.
+            I've learned to read other people's code. And I am a team player, that's the most important role that I can do well. 
           </p>
             <MyImage Image={'/my.jpg'} />
       </div>
