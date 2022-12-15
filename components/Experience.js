@@ -19,7 +19,7 @@ export const Experience = ({title, experienceRef}) => {
       </h2>
       <div className='relative w-full md:max-w-3xl mx-auto lg:px-10 lg:w-[1000px] lg:max-w-none'>
       <div className='absolute bg-[#009897] w-[2px] min-h-full lg:left-[531px] lg:block hidden'/>
-        <li>
+        <li className='list-none'>
           <ExperienceCards 
             title='Icurus Restuarent' 
             info='Start-Up' 
@@ -29,7 +29,7 @@ export const Experience = ({title, experienceRef}) => {
             Icon2={BadgeCheckIcon}
           />
         </li>
-        <li>
+        <li className='list-none'>
           <ExperienceCards 
             title='KSN' 
             info='Vlunteer' 
@@ -40,7 +40,7 @@ export const Experience = ({title, experienceRef}) => {
             Icon2={BadgeCheckIcon}
           />
         </li>
-        <li>
+        <li className='list-none'>
           <ExperienceCards 
             title='Hulu 2.0' 
             info='Side Project'
@@ -50,7 +50,7 @@ export const Experience = ({title, experienceRef}) => {
             Icon2={BadgeCheckIcon}
           />
         </li>
-        <li>
+        <li className='list-none'>
           <ExperienceCards 
             title='First Portfolio Website' 
             info='Portfolio'
@@ -60,7 +60,7 @@ export const Experience = ({title, experienceRef}) => {
             Icon2={BadgeCheckIcon}
           />
         </li>
-        <li>
+        <li className='list-none'>
           <div className='relative'>
             <ExperienceCards 
             title='KBCUSA' 

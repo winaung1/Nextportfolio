@@ -12,36 +12,34 @@ export const Navbar = ({hidden,
   mySkillsIsVisible
 }) => {
 
-const scrolled = () => {
+// const scrolled = () => {
   
-    if(window.scrollY > 500){
-      setHidden(false)
-    } 
-    // if(window.scrollY === position.current.offsetTop){
-    //   alert('ok')
-    // }
+//     if(window.scrollY > 500){
+//       setHidden(false)
+//     } 
+  
 
-var isScrolling;
+// var isScrolling;
 
-window.addEventListener('scroll', function () {
+// window.addEventListener('scroll', function () {
 
-	window.clearTimeout( isScrolling );
+// 	window.clearTimeout( isScrolling );
 
-	isScrolling = setTimeout(function() {
+// 	isScrolling = setTimeout(function() {
 
-		setHidden(true);
+// 		setHidden(true);
 
-	}, 7000);
+// 	}, 7000);
 
-}, false);
-}
+// }, false);
+// }
 
-  const callWindowListener = () => {
-    window.addEventListener('scroll', scrolled)
-  }
-useEffect(() => {
-    callWindowListener();
-  }, []);
+//   const callWindowListener = () => {
+//     window.addEventListener('scroll', scrolled)
+//   }
+// useEffect(() => {
+//     callWindowListener();
+//   }, []);
 
 
   return (

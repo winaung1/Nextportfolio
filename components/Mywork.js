@@ -13,7 +13,7 @@ export const Mywork = ({title, myworkRef}) => {
             using documentions, examples and tutorails. I handle all the frontend functionalities. I kept on pushing when it is hard.
             I am very happy that I have gotten a working website that will be used by clients.'
             IconImage={'/icurus.png'}
-            Demo={'https://icarusrestaurant.herokuapp.com/homepage/?session=test&table=13'}
+            Demo={'https://www.icarus.novacloudlab.com/login/?session=None'}
             Title='Icurus Restuarent'
             skills1='Python'
             skills2='Tailwind'
@@ -62,6 +62,20 @@ export const Mywork = ({title, myworkRef}) => {
             skills3='Javascript'
             skills4='Vercel'
             skills5='Express'
+          />
+          <MyWorkCards 
+            myText='I made this template not long ago about Traveling website. I enjoyed this so much that I put in effort to make this website look
+            as clean as possible. It is fully responsive.
+            '
+            IconImage={'/travel.png'}
+            Demo={'https://gotravelsite.netlify.app/'}
+            Code={'https://github.com/winaung1/GoTravel.git'}
+            Title='GOTravel'
+            skills1='HTML'
+            skills2='Tailwind'
+            skills3='Javascript'
+            skills4='CSS'
+            skills5='Netlify'
           />
         </div>
  

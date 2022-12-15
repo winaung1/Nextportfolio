@@ -36,20 +36,37 @@
     object-fit: cover;
     pointer-events: none;
   }
-  .background-gradient p{
+  .background-gradient h1{
     position: relative;
-    color: rgb(213, 105, 105);
     text-align: center;
-    font-size: 2rem;
-    padding-top: 170px;
-    letter-spacing: 8px;
+    color: white;
+    font-size: 4rem;
+    padding-top: 370px;
+    letter-spacing: 10px;
     z-index: 2;
-    font-family: 'Caveat Brush', cursive;
   }
   
   .home{
   
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?cs=srgb&dl=pexels-roberto-nickson-2559941.jpg&fm=jpg');
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('/ok.jpg');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  #home{
+  
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('/palmtrees.jpg');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  #fistImg{
+  
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/office.jpeg');
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -104,7 +121,7 @@
   }
   *{
   
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Caveat Brush', cursive;
     }
     .top, .body{
       width: 350px;
