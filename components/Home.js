@@ -3,11 +3,9 @@ export const Home = () => {
 
   return (
     <div id='home'>
-        <div className='text-gray-500'>
          <div className='background-gradient overflow-hidden'>
-            <h1>FRONTEND WEB DEVELOPER</h1>
+            <h1 className="text-xl md:text-3xl lg:text-5xl">FRONTEND WEB DEVELOPER</h1>
           </div>
-        </div>
     </div>
   )
 }
