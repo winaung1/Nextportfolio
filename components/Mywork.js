@@ -68,8 +68,8 @@ export const Mywork = ({title, myworkRef}) => {
             as clean as possible. It is fully responsive.
             '
             IconImage={'/travel.png'}
-            Demo={'https://gotravelsite.netlify.app/'}
-            Code={'https://github.com/winaung1/GoTravel.git'}
+            Demo={'https://wingotravelsite.com/'}
+            Code={'https://github.com/winaung1/GOTravel'}
             Title='GOTravel'
             skills1='HTML'
             skills2='Tailwind'
