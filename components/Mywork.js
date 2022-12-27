@@ -5,7 +5,7 @@ import { Title } from './Title'
 
 export const Mywork = ({title, myworkRef}) => {
   return (
-    <div  ref={myworkRef} className='px-10 bg-gray-800 min-h-screen' id='mywork'>
+    <div  ref={myworkRef} className='px-5 bg-gray-800 min-h-screen' id='mywork'>
         <Title title={title}/>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <MyWorkCards 

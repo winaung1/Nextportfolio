@@ -19,7 +19,7 @@ export const Contact = ({title,setHandleSumbit, contactRef}) => {
     }
 
   return (
-    <div className='home min-h-screen px-10 pt-10 p-5 overflow-x-hidden' id='contact'>
+    <div className='home min-h-screen px-5 pt-10 p-5 overflow-x-hidden' id='contact'>
       <Title title={title}/>
       <form ref={form} onSubmit={sendEmail} name="contact" className='flex flex-col item-center w-80 md:w-[550px] min-h-screen justify-center mx-auto max-w-xl text-white font-bold text-2xl' method="POST" data-netlify="true">
        <input type="hidden" name="form-name" value="contact"/>
