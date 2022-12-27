@@ -24,8 +24,8 @@ function NavbarContent({
      return () => window.removeEventListener("scroll", handleScroll);
    });
   return (
-    <div className={`${clientWindowHeight ? 'bg-[#035959]' : ''} fixed text-xl py-5 text-white top-0 left-0 w-full z-[150] bg-transparent flex items-center justify-between px-10`}>
-      <h1 className='absolute -top-96 left-0'>{clientWindowHeight}</h1>
+    <div className={`${clientWindowHeight ? 'bg-[#035959]' : ''} fixed text-xl py-5 text-white top-0 left-0 w-full z-[150] bg-transparent flex items-center justify-between px-5`}>
+      {/* <h1 className='absolute -top-96 left-0'>{clientWindowHeight}</h1> */}
        <li className='cursor-pointer list-none hover:text-[#009897]'>
             <Link onClick={() => setActiveLink('home')} to={"home"} smooth={true} duration={1000}><div><span>Win Portfolio</span></div></Link>
       </li>

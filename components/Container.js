@@ -30,7 +30,7 @@ function Container() {
   return (
     <div>
       {handleSubmit ? <EmailSuccess setHandleSubmit={setHandleSumbit}/>: 
-      <div className="min-w-[360px]">
+      <div className="min-w-[360px] p-0 m-0 overflow-hidden">
              {/* <p className='fixed top-0 z-50 text-white left-40'>cursor: {cursor}</p> */}
         <Navbar 
         myContactIsVisible={myContactIsVisible} 

@@ -11,7 +11,7 @@ import { Title } from './Title';
 
 export const Experience = ({title, experienceRef}) => {
   return (
-    <div ref={experienceRef} className='px-5 road pb-10 min-h-screen' id='experience'>
+    <div ref={experienceRef} className='road pb-10 min-h-screen' id='experience'>
          <Title title={title}/>
       <h2 className='p-2 text-white text-center text-xl md:text-2xl ml-auto mr-auto max-w-2xl'>
        These are my experience timeline to show case as to how long I've worked on these projects.

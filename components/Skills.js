@@ -16,7 +16,7 @@ import Image from 'next/image';
 export const Skills = ({title, skillsRef}) => {
 
   return (
-    <div className='h-[900px] bg-gray-800 items-center justify-center gap-x-10 relative' id='skills'>
+    <div className='h-[900px] bg-gray-800 items-center justify-center gap-x-10 relative px-5' id='skills'>
         <div ref={skillsRef} className=''>
         <Title title={title}/>
           <p className=' w-80 mx-auto flex items-center space-x-2 text-white'><CogIcon className='h-7'/><span className='text-2xl font-bold'>DEVELOPMENT</span></p>

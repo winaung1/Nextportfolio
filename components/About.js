@@ -13,7 +13,7 @@ export const About = ({title, aboutRef}) => {
  
 
   return (
-    <div ref={aboutRef} className=' bg-black px-10 text-lg min-h-screen text-gray-300 pb-10' id='about'>
+    <div ref={aboutRef} className=' bg-black px-5 text-lg min-h-screen text-gray-300 pb-10' id='about'>
       <Title title={title}/>
       <div className='lg:flex items-center lg:w-[990px] lg:mx-auto lg:my-40'>
           <p ref={ref}  style={{
