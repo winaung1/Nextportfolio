@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import { Link } from 'react-scroll'
 
 function NavbarContent({
@@ -9,8 +9,23 @@ function NavbarContent({
    const handleClick = () => {
          setIsSet(current => !current);
    }
+
+   const [clientWindowHeight, setClientWindowHeight] = useState(false);
+
+   const handleScroll = () => {
+       setClientWindowHeight(window.scrollY);
+       if(window.scrollY > 100){
+         setClientWindowHeight(true)
+       }
+   };
+ 
+   useEffect(() => {
+     window.addEventListener("scroll", handleScroll); 
+     return () => window.removeEventListener("scroll", handleScroll);
+   });
   return (
-    <div className="fixed text-xl pt-5 text-white top-0 left-0 w-full z-[150] bg-transparent flex items-center justify-between px-10">
+    <div className={`${clientWindowHeight ? 'bg-[#035959]' : ''} fixed text-xl py-5 text-white top-0 left-0 w-full z-[150] bg-transparent flex items-center justify-between px-10`}>
+      <h1 className='absolute -top-96 left-0'>{clientWindowHeight}</h1>
        <li className='cursor-pointer list-none hover:text-[#009897]'>
             <Link onClick={() => setActiveLink('home')} to={"home"} smooth={true} duration={1000}><div><span>Win Portfolio</span></div></Link>
       </li>
@@ -20,7 +35,7 @@ function NavbarContent({
             <div className='bg-white group-hover:bg-[#009897] w-[2px] h-4'></div>
             <div className='bg-white group-hover:bg-[#009897] w-[2px] h-5'></div>
       </div>
-        <ul className={`${isSet ? 'fixed top-12 right-10 bg-[#035959] w-32 h-50 px-10 rounded-lg' : 'hidden'} md:flex items-center gap-5`}>
+        <ul className={`${isSet ? 'fixed top-12 right-10 bg-[#035959] w-40 h-50 px-10 rounded-lg' : 'hidden'} md:flex items-center gap-5`}>
           <li className="cursor-pointer hover:text-[#009897]">
               <Link onClick={() => setActiveLink('home')} to={"home"} smooth={true} duration={1000}><div><span>Home</span></div></Link>
           </li>

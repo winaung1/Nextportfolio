@@ -1,5 +1,4 @@
 
-import {React} from 'react'
 import NavbarContent from './NavbarContent';
 export const Navbar = ({hidden, 
   setHidden, activeLink, setActiveLink, 
@@ -9,38 +8,8 @@ export const Navbar = ({hidden,
   myHomeIsVisible,
   myWhatidoIsVisible,
   myWorkIsVisible,
-  mySkillsIsVisible
+  mySkillsIsVisible,
 }) => {
-
-// const scrolled = () => {
-  
-//     if(window.scrollY > 500){
-//       setHidden(false)
-//     } 
-  
-
-// var isScrolling;
-
-// window.addEventListener('scroll', function () {
-
-// 	window.clearTimeout( isScrolling );
-
-// 	isScrolling = setTimeout(function() {
-
-// 		setHidden(true);
-
-// 	}, 7000);
-
-// }, false);
-// }
-
-//   const callWindowListener = () => {
-//     window.addEventListener('scroll', scrolled)
-//   }
-// useEffect(() => {
-//     callWindowListener();
-//   }, []);
-
 
   return (
     <div className=''>

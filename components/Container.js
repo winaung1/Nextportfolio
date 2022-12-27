@@ -26,41 +26,14 @@ function Container() {
     const {ref: skillsRef, inView: mySkillsIsVisible} = useInView();
     const {ref: myworkRef, inView: myWorkIsVisible} = useInView();
     const {ref: contactRef, inView: myContactIsVisible} = useInView();
-    
-  
-    // const [myAboutIsVisible, setMyAboutIsVisible] = useState(false);
-
-    // const { ref: magicSectionRef, inView: magicSectionIsVisible } = useInView();
-    // const [cursor, setCursor] = useState('')
-
- 
-    // function findPosition(e){
-    //   const yes = `
-    //   Screen X/Y: ${e.screenX}, ${e.screenY}
-    //   Client X/Y: ${e.clientX}, ${e.clientY}`;
-    //   setCursor(yes)
-    //   if(e.clientY === 424 | e.clientY === 425 | e.clientY === 426 | e.clientY === 427){
-    //     setHidden(false)
-    //     alert(e.clientX)
-    //   } else {
-    //     setHidden(true)
-    //   }
-
-    //   }
-
-    // const mouseOver = () => {
-    // }
-    // useEffect(() => {
-    //   document.addEventListener('mousemove', findPosition);
-    //   mouseOver();
-    // }, [])
+   
   return (
     <div>
       {handleSubmit ? <EmailSuccess setHandleSubmit={setHandleSumbit}/>: 
       <div className="min-w-[360px]">
              {/* <p className='fixed top-0 z-50 text-white left-40'>cursor: {cursor}</p> */}
         <Navbar 
-           myContactIsVisible={myContactIsVisible} 
+        myContactIsVisible={myContactIsVisible} 
         myHomeIsVisible={myHomeIsVisible}
         myExperienceIsVisible={myExperienceIsVisible}
         myWhatidoIsVisible={myWhatidoIsVisible}
