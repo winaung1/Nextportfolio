@@ -63,11 +63,12 @@ export const Experience = ({title, experienceRef}) => {
         <li className='list-none'>
           <div className='relative'>
             <ExperienceCards 
-            title='KBCUSA' 
-            info='Volunteer'
-            description='I volunteer to do their website because no one else know what to do with it,
-            I delivered the website to life and also made huge commitment to make sure every works.'
-            dates='Sep. 2021 - Nov. 2022'
+            title='Vanderhall' 
+            info='Full-time'
+            description='I worked at Vanderhall Motor Works, using most PHP, Codeigniter4,
+            Mysql and Javascript. I implented a feature that keep track of how many cars
+            has been in production.'
+            dates='Sep. 2022 - DEC. 2022'
             Icon={SearchIcon}
             Icon2={BadgeCheckIcon}
             />

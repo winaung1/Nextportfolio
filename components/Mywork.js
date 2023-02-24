@@ -10,8 +10,7 @@ export const Mywork = ({title, myworkRef}) => {
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <MyWorkCards 
             myText='This is the project that led me to stay during tough times. I have managed to build the website from scratch,
-            using documentions, examples and tutorails. I handle all the frontend functionalities. I kept on pushing when it is hard.
-            I am very happy that I have gotten a working website that will be used by clients.'
+            using documentions, examples and tutorails.'
             IconImage={'/icurus.png'}
             Demo={'https://www.icarus.novacloudlab.com/login/?session=None'}
             Title='Icurus Restuarent'
@@ -22,9 +21,8 @@ export const Mywork = ({title, myworkRef}) => {
             skills5='Django'
           />
           <MyWorkCards 
-            myText='I was interested in making a better website for my Karen people that needs help with
-            technology. Although I was new doing this project. I am able to bring out the results that the customer wanted.
-            I have learned how to manage my time, how to implements different functionalities using javascript for the slider.'
+            myText='I made this site for Karen people that needs help with
+            technology.'
             IconImage={'/ksn.png'}
             Demo={'https://verdant-eclair-1ba9e1.netlify.app/index.html'}
             Code={'https://github.com/winaung1/KSN.org'}
@@ -36,9 +34,8 @@ export const Mywork = ({title, myworkRef}) => {
             skills5='CSS'
           />
           <MyWorkCards 
-            myText='I volunteering to this website because it was almost not used since it was hard to maintain and know one knows how to work around a code that is so old.
-            So I use React because it is fun. Due to their reuse components through props. I managed to build the website fairly quickly.
-            I kept all the old layout as they wanted.'
+            myText='I volunteer to make this website because it was outdated, since it was hard to maintain and no one knows how to work around a code that was old.
+            I was able to make it quickly with React because it was fast and resuseable and easy to maintain due to the community support it has.'
             IconImage={'/kbcusa1.png'}
             Demo={'https://kbcusa.netlify.app'}
             Code={'/'}

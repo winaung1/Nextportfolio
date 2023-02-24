@@ -21,10 +21,10 @@ export const About = ({title, aboutRef}) => {
           opacity: isInView ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
         }} className='pb-5 leading-normal md:px-5 md:text-2xl max-w-4xl ml-auto mr-auto lg:w-[800px]'>
-            My name is Win Aung. I'm a self-taught frontend developer. I'm using Next Js along side Tailwind css almost every project I build.
-            I've developed the necessary skills as a web developer to accomplish any tasks by reading documentations and tutorials.
-            I use third party packages from all over the internet if necessary to speed up the process of the work.
-            I've learned to read other people's code. And I am a team player, that's the most important role that I can do well. 
+            My name is Win Aung. I'm a self-taught frontend developer. I'm using frontend frameworks to build projects.
+            I've developed the skills as a web developer to accomplish any tasks by reading documentations and tutorials.
+            I worked at Vanderhall Motor works, I implented a feature to keep track of each vehicle scanned in, and sent to the database.
+            I love what I do and pround of it.
           </p>
             <MyImage Image={'/my.jpg'} />
       </div>
